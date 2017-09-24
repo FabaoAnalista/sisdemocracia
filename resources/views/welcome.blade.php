@@ -53,13 +53,12 @@
         </div>
         <!-- Header -->
         <div class="container-fluid">
-        <header class="w3-container w3-blue w3-center" style="padding:70px 20px">
+        <header class="w3-container w3-blue w3-center" style="padding:40px 20px">
           <h1 class="w3-margin w3-jumbo">Sisdemocracia</h1>
-          <p class="w3-xlarge">Um sistema para projetos de iniciativa popular de João Monlevade.Assine um projeto de lei
-Um projeto de lei de iniciativa popular precisa atingir uma porcentagem mínima de assinaturas de eleitores para ser encaminhado e apresentado em uma classe legislativa</p>
+          <p class="w3-xlarge">Um sistema para projetos de iniciativa popular de João Monlevade.</p>
+          <p class="w3-xlarge">Assine um projeto de lei</p>
           <!--Pensar sobre utilidade do button -->
-
-          <a href="{{ route('login') }}" class="w3-button w3-white w3-padding-large w3-large w3-margin-top" role="button" aria-pressed="true">Votar em Projetos</a>
+          <a href="{{ route('login') }}" class="w3-button w3-white w3-padding-large w3-large w3-margin-top" role="button" aria-pressed="true">Assinar Projetos</a>
         </header>
         </div>
         <h2 >Conheça nossos projetos de Iniciativa popular</h2>
@@ -71,7 +70,7 @@ Um projeto de lei de iniciativa popular precisa atingir uma porcentagem mínima 
                   <div class="caption">
                     <h3>Projeto Estacionamento</h3>
                     <p>Este projeto tem por obejtivo regulamentar ... </p>
-                    <p><a href="/projetos" class="btn btn-primary" role="button">Votar</a> </p>
+                    <p><a href="/projetos" class="btn btn-primary" role="button">Assinar</a> </p>
 
                   </div>
                 </div>
@@ -83,7 +82,7 @@ Um projeto de lei de iniciativa popular precisa atingir uma porcentagem mínima 
                   <div class="caption">
                     <h3>Projeto Parque do Areao</h3>
                     <p>Este projeto trata da revitalização do parque do areao ... </p>
-                    <p><a href="/projetos" class="btn btn-primary" role="button">Votar</a> </p>
+                    <p><a href="/projetos" class="btn btn-primary" role="button">Assinar</a> </p>
                   </div>
                 </div>
               </div>
@@ -93,7 +92,7 @@ Um projeto de lei de iniciativa popular precisa atingir uma porcentagem mínima 
                   <div class="caption">
                     <h3>Projeto Escola Tecnologica</h3>
                     <p>Este projeto trata da inserção do curriculun...</p>
-                    <p><a href="/projetos" class="btn btn-primary" role="button">Votar</a> </p>
+                    <p><a href="/projetos" class="btn btn-primary" role="button">Assinar</a> </p>
                   </div>
                 </div>
               </div>

@@ -6,6 +6,9 @@ Route::get('/', function () {
 Route::get('dashboard', function () {
     return view('dashboard');
 });
+Route::get('/painelvotar', function () {
+    return view('painelvotar');
+});
 
 //Rotas para dashboard de projetos e recuros de projetos
 
