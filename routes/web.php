@@ -9,6 +9,10 @@ Route::get('dashboard', function () {
 Route::get('/painelvotar', function () {
     return view('painelvotar');
 });
+Route::get('/telaprojeto', function () {
+    return view('telaprojeto');
+});
+
 
 //Rotas para dashboard de projetos e recuros de projetos
 
@@ -57,9 +61,7 @@ Route::get('alterar/email', function () {
 Route::get('alterar/profile', function () {
     return view('users.profile');
 });
-Route::get('/painelvotar', function () {
-    return view('painelvotar');
-});
+
 
 Route::post('users/updatepassword', 'UserController@updatepassword');
 Route::post('users/updateemail', 'UserController@updateemail');
