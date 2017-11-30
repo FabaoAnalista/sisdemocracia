@@ -62,7 +62,6 @@ Route::get('alterar/profile', function () {
     return view('users.profile');
 });
 
-
 Route::post('users/updatepassword', 'UserController@updatepassword');
 Route::post('users/updateemail', 'UserController@updateemail');
 Route::post('users/updateprofile', 'UserController@updateprofile');
