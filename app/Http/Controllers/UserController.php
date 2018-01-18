@@ -29,7 +29,7 @@ class UserController extends Controller
     }
 
     public function index(){
-        if (Auth::user()->type == 2){
+        if (Auth::user()->type == 1){
 
     return redirect('/projetos');}
         else {
@@ -65,7 +65,7 @@ class UserController extends Controller
 
     public function update(Request $request, $id)
     {
-      //if(Auth::user()->type == 2 || Auth::user()->type == 3) {
+      if(Auth::user()->type == 1 || Auth::user()->type == 2) {
           $user = User::find($id);
           $user->name = $request->get("name");
           $user->email = $request->get("email");
