@@ -90,8 +90,8 @@ class UserController extends Controller
       //    return redirect('/');
       //}
     }
-
-        public function password(){
+}
+    public function password(){
         return View('user.password');
     }
 
